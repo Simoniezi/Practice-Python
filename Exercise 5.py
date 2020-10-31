@@ -13,6 +13,8 @@ for number in a and b:
 
 print(c)
 
+# Extra 1
+
 num1 = random.sample(range(1, 50), 10)
 num2 = random.sample(range(1, 50), 10)
 

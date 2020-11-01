@@ -7,12 +7,21 @@ a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 c = []
 
-for number in a and b:
-    if number in a and b:
-        c.append(number)
+#for number in a and b:
+#    if number in a and b:
+#       c.append(number)
+#
+#print(c)
 
-print(c)
+# Change from Exercise 14
+def noDup(a):
+    for num in b:
+        if num not in c:
+            c.append(num)
 
+    print('List with no duplicates: ', c)
+
+noDup(a) 
 # Extra 1
 
 num1 = random.sample(range(1, 50), 10)

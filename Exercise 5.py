@@ -21,7 +21,17 @@ def noDup(a):
 
     print('List with no duplicates: ', c)
 
-noDup(a) 
+noDup(a)
+#
+#c = set(a)
+#c = list(a)
+#c = set(b)
+#c = list(b)
+#
+#print('List with no duplicates', c)
+
+# End change from Exercise 14
+
 # Extra 1
 
 num1 = random.sample(range(1, 50), 10)

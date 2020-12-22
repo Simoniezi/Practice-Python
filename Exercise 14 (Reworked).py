@@ -1,3 +1,6 @@
+# Exercise 14
+# List Remove Duplicates
+
 import random
 
 list1 = random.sample(range(1, 100), 25)
@@ -34,3 +37,5 @@ def noDup():
 
 noDup()
 
+# Made by Simoniezi
+# Discord: Simoniezi#7138
